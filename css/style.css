@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
     background-color: var(--Pale-blue);
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -34,7 +35,6 @@ section{
 
 section > *{
     flex-basis: 50%;
-    height: 100%;
 }
 
 .img-hero{
