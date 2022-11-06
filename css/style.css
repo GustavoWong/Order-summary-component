@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     background-color: var(--Pale-blue);
     font-family: 'Red Hat Display', sans-serif;
 }
