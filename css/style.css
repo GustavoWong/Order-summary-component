@@ -21,12 +21,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
     background-color: var(--Pale-blue);
     font-family: 'Red Hat Display', sans-serif;
 }
 
-
+main{
+    padding: 20px;
+}
 section{
     max-width: 380px;
     border-radius: 15px;
