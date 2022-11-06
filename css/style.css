@@ -21,14 +21,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     background-color: var(--Pale-blue);
     font-family: 'Red Hat Display', sans-serif;
 }
 
-main{
-    padding: 0px 20px 0px 30px;
-}
 section{
     max-width: 380px;
     border-radius: 15px;
