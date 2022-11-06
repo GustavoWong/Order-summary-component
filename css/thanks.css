@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --Dark-blue: hsl(223, 47%, 23%);
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --paragraph:hsl(223, 24%, 53%);
+    --white: #FFFFFF;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: var(--Dark-blue);
+}

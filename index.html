@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Order summary card</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+
+      <img class="img-hero" src="images/illustration-hero.svg" alt="illustration-hero">
+      <div class="info">
+        <div class="text-order">
+          <h1>
+            Order Summary
+          </h1>
+          <span class="description">
+            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+          </span>
+        </div>
+        <div class="plan">
+          <img src="images/icon-music.svg" alt="icon-music">
+          <div class="price-plan">
+            <p class="plan-text">
+              Annual Plan
+            </p>
+            <span>
+              $59.99/year
+            </span>
+          </div>
+          
+          <a href="#">Change</a>
+        </div>
+
+        <div class="payments">
+          <button onclick="clicou()">Proceed to Payment</button>
+          <span><a href="#" onclick="cancel()">Cancel Order</a></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">@gustavhuey</a>.
+  </div>-->
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.6/dist/sweetalert2.all.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
